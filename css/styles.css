@@ -148,10 +148,16 @@ body {
 
 .articles-container {
     margin-top: 2rem;
+    /* étape 6 : layout des articles */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .card {
     margin-bottom: 2rem;
+    /* étape 6 : layout des articles */
+    width: calc(50% - 1rem);
 }
 
 .card-title {
