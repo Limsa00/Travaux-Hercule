@@ -1,5 +1,6 @@
 body {
     background:#eee;
+    /* étape 2 : intégration de la font */
     font-family: 'Asap', sans-serif;
 }
 
@@ -53,7 +54,19 @@ body {
 
 .nav-item {
     font-size: 1.2rem;
+    /* étape 3 : styliser les liens */
+    text-transform: uppercase;
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: .7em;
+    margin: 0.4em;
 }
+
+/* étape 3 : styliser les liens */
+.nav-item--active {
+    box-shadow: 0px 2px 0px #f39c12;
+}
+
 
 .page {
     padding: 5rem 2rem 2rem;
