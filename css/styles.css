@@ -85,11 +85,23 @@ body {
     width: 50%;
     font-size: 3em;
     margin-right: 2rem;
+    /* étape 4 : retapper les titres */
+    border-top: 2px solid #f39c12;
 }
 
 .content-title {
     max-width: 450px;
     margin-left: auto;
+    /* étape 4 : retapper les titres */
+    text-align: right;
+    padding: .4em;
+    font-weight: bold;
+}
+
+/* étape 4 : retapper les titres */
+.content-title--sub {
+    font-size: .9em;
+    color: #aaa;
 }
 
 .content-picture {
