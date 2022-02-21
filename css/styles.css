@@ -270,6 +270,9 @@ body {
         width:auto;
         float:none;
         margin-left:0;
+
+        /* étape 12 : le header devient trop grand */
+        height: auto;
     }
 
     .container {
@@ -291,6 +294,8 @@ body {
 
     .nav-links {
         margin-top:0;
+        /* étape 12 : on affiche les liens sur la même ligne */
+        display: flex;
     }
 
     .nav-item {
